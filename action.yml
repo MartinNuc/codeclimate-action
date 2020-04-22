@@ -1,6 +1,6 @@
-name: 'Code Climate Coverage Action'
+name: 'Code Climate Coverage Action Test'
 description: 'Publish code coverage to Code Climate'
-author: 'GP <me@httgp.com>'
+author: 'Martin Nuc <martin@nuc.cz>'
 branding:
   icon: 'code'
   color: 'gray-dark'

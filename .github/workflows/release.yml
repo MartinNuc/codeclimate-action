@@ -13,8 +13,8 @@ jobs:
         uses: technote-space/release-github-actions@v6
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          COMMIT_NAME: 'GP'
-          COMMIT_EMAIL: 'me@httgp.com'
+          COMMIT_NAME: 'Martin Nuc'
+          COMMIT_EMAIL: 'martin@nuc.cz'
           CREATE_MAJOR_VERSION_TAG: false
           CREATE_MINOR_VERSION_TAG: false
           key: '.[!.]*,test,src,*.js,*.ts,*.json,CHANGELOG.md,_config.yml'
