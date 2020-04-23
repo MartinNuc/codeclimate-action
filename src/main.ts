@@ -102,10 +102,6 @@ export function run(
       .split(/\r?\n/)
       .filter((pat) => pat)
       .map((pat) => pat.trim());
-    // What's this weird check, you ask?
-    // If coverageLocations are not explicitly given, they default to an empty array.
-    // HOWEVER, no amount of checking if its an empty array seems to work, so this is the
-    // ONLY way I can confidently say if a user gave a valid set of locations or didn't give any.
     if (coverageLocations.length > 0) {
       debug(
         `Parsing ${
